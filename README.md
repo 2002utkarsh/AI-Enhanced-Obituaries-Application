@@ -1,30 +1,58 @@
 # AI-Enhanced Obituaries Application
 
-**Duration**: April 2023 - July 2023
+A serverless, full-stack web application that generates personalized, multimedia obituaries using AI and cloud services. The system integrates multiple AWS components and third-party APIs to deliver an automated, dynamic user experience from minimal user input.
 
-This collaborative project involved the development of a React-based web application that leverages AI and cloud services to streamline obituary generation. The team showcased expertise in natural language processing, AI integration, and user-centric design to create a powerful and user-friendly tool.
+---
 
-## Project Highlights
+## Project Overview
 
-- **Automatic Obituary Generation**: We integrated the ChatGPT API to automatically generate obituaries. This feature significantly simplifies the obituary creation process, saving time and effort for users.
+This project leverages artificial intelligence and cloud infrastructure to simplify and modernize obituary creation. Users provide key personal details, and the application automatically generates high-quality written content, voice narration, and media assets.  
+The backend orchestrates generative text, text-to-speech, and media management services in a scalable, serverless environment.
 
-- **Multimedia Content Management**: Our application seamlessly incorporates Cloudinary and Amazon Polly, providing users with tools to manage multimedia content in obituaries. This enhancement makes obituaries more personalized and engaging.
+Key capabilities include:
+- Automated obituary text generation using the ChatGPT API  
+- AI-generated speech output through Amazon Polly  
+- Cloud-based media storage and optimization with Cloudinary  
+- Terraform-based infrastructure provisioning and CI/CD automation on AWS  
+- Serverless architecture for efficient cost scaling and minimal maintenance
 
-- **Terraform and AWS Integration**: The team mastered the challenges of Terraform and AWS integration. This ensures that our application is robust and scalable, capable of handling increasing demands and workloads.
+---
 
-## How to Use
+## Features
 
-1. Clone the repository to your local machine.
-2. Set up the required environment variables for ChatGPT API, Cloudinary, and Amazon Polly.
-3. Compile and run the application using React.
-4. Explore the user-friendly interface and experience the automatic obituary generation and multimedia content management features.
+- End-to-end automation: from user input to AI-generated output  
+- Fully serverless deployment on AWS S3 and Lambda  
+- Text-to-speech generation using Amazon Polly  
+- Dynamic media management with Cloudinary  
+- Infrastructure defined and deployed with Terraform  
+- Continuous deployment pipeline for consistent updates  
+- React-based frontend delivering a responsive and intuitive UI
 
-## Contributing
+---
 
-We welcome contributions and suggestions from the open-source community. If you'd like to improve this project or have ideas for enhancements, please feel free to create pull requests or open issues in the project repository.
+## Tech Stack
 
-## License
+- **Frontend:** React (TypeScript)  
+- **Backend:** AWS Lambda (Node.js)  
+- **Infrastructure:** Terraform  
+- **AI Integration:** OpenAI / ChatGPT API  
+- **Speech Synthesis:** Amazon Polly  
+- **Media Storage:** Cloudinary and AWS S3  
+- **Deployment:** AWS CI/CD with Terraform automation  
 
-This project is open-source and is available under the MIT License. You can find detailed licensing information in the [LICENSE](LICENSE) file.
+---
 
-Thank you for exploring our AI-Enhanced Obituaries Application. We hope it provides a valuable and efficient solution for obituary creation, benefiting both individuals and professionals.
+## Build and Setup
+
+### Prerequisites
+- Node.js 18+  
+- Terraform v1.3+  
+- AWS account with access credentials configured  
+- Cloudinary API credentials  
+- OpenAI API key  
+- Amazon Polly IAM permissions  
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/ai-obituaries-app.git
+cd ai-obituaries-app
